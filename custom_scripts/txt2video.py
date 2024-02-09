@@ -529,7 +529,7 @@ def generate_walk_video(
 
     return
 
-def generateInitFrame(image_args, video_args, path_args, model_state, n=4) :
+def generateInitFrame(image_args, video_args, path_args, model_state, n=4) : # not used
     model_state.sampler = KDiffusionSampler(model_state.model, video_args.sampler)
 
 

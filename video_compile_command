@@ -1,0 +1,1 @@
+ffmpeg -r 20 -start_number 0 -i outputs/images/%05d.png -c:v libx264 -r 20 -pix_fmt yuv420p outputs/videos/without_color_interp.mp4
