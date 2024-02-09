@@ -2,3 +2,6 @@ server/outputs/
 stable-diffusion/
 stable-diffusion-2/
 dev_ressources_local
+archive/
+outputs/
+custom_scripts/weights
